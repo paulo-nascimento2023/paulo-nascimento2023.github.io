@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@6.5.95/css/materialdesignicons.min.css">
+    <title>kbyte Technical</title>
+    <link rel="icon" type="image/png" href="img/chave-inglesa512 bts.png">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#menu">
+
+    <div id="topo" class="container">
+        <header class="bg-light sticky-top d-flex flex-wrap justify-content-center py-3 mb-5 border-bottom">
+            <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+                <span class="text-primary fs-4 fw-bold"> <img src="img/chave-inglesa 32 bts.png" alt="">Kbyte</span>
+            </a>
+
+            <ul id="menu" class="nav nav-pills">
+                <div class="form-check form-switch ms-auto mt-2 me-5">
+                    <label id="icone-toggle" class="form-check-label ms-3" for="lightSwitch">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-moon-stars" viewBox="0 0 16 16">
+                            <path
+                                d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278zM4.858 1.311A7.269 7.269 0 0 0 1.025 7.71c0 4.02 3.279 7.276 7.319 7.276a7.316 7.316 0 0 0 5.205-2.162c-.337.042-.68.063-1.029.063-4.61 0-8.343-3.714-8.343-8.29 0-1.167.242-2.278.681-3.286z" />
+                            <path
+                                d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z" />
+                        </svg>
+                    </label>
+                    <input class="form-check-input" type="checkbox" id="lightSwitch" />
+                </div>
+                <li class="nav-item"><a href="#topo" class="nav-link active" aria-current="page">Home</a></li>
+                <li class="nav-item"><a href="#servicos" class="nav-link">Serviços</a></li>
+                <!-- <li class="nav-item"><a href="#precos" class="nav-link">Preços</a></li> -->
+                <li class="nav-item"><a href="#faq" class="nav-link">FAQ</a></li>
+                <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
+            </ul>
+        </header>
+
+        <section class="mb-5">
+            <div class="row text-center text-md-start">
+                <div class="col-md-6 mt-3">
+                    <h2 class="mt-5 fs-5">Aqui o seu computador é tratado com respeito</h2>
+                    <h1 class="display-2 fw-bold">Kbyte Assistência Técnica</h1>
+                    <p class="mt-4 text-muted">Bem-vindo(a) à Kbyte Technical, sua solução confiável para
+                        assistência técnica em PC. Somos especializados em oferecer serviços de alta qualidade e suporte
+                        personalizado para todas as suas necessidades de manutenção e reparo de computadores.<br>
+                        No mundo digital em constante evolução, entendemos a importância do seu computador funcionar
+                        perfeitamente. Seja você um usuário doméstico, estudante, profissional ou empresa, estamos aqui
+                        para ajudar a solucionar problemas e otimizar o desempenho do seu PC.<br>
+                        Aqui na Kbyte Technical, a satisfação do cliente é a nossa prioridade. Valorizamos a
+                        transparência, o atendimento personalizado e a entrega pontual dos nossos serviços. Nossa
+                        abordagem centrada no cliente significa que ouvimos atentamente suas necessidades e oferecemos
+                        soluções eficientes e acessíveis para resolver qualquer problema que você possa ter.</p>
+                    <a href="#contato" class="mt-1 w-50 p-4 fw-bold btn btn-primary">Contato <i
+                            class="mdi mdi-arrow-right-thick"></i>
+                    </a>
+                </div>
+                <div class="col-md-6">
+                    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                    <lottie-player class="m-0 m-auto float-none float-md-end"
+                        src="https://assets5.lottiefiles.com/packages/lf20_DkYU1t.json" background="transparent"
+                        speed="1" style="max-width: 100%;" loop autoplay>
+                    </lottie-player>
+                </div>
+            </div>
+        </section>
+        <section id="servicos" class="text-center py-1 my-5">
+            <div class="row pt-3 mt-3">
+                <div class="col-12">
+                    <h2 class="display-5 fw-bold">Serviços Prestados</h2>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-lg-4 mt-4">
+                    <img class=" img-fluid rounded-circle border shadow p-5" src="img/sistema.png">
+
+                    <h2 class="mt-3">Manutenção</h2>
+                    <p>Manutenções corretivas e preventivas </p>
+                    <p><a class="btn btn-secondary bg-primary fw-bold" href="#exampleModal01"
+                            data-bs-toggle="modal">Veja
+                            Detalhes »</a>
+                    </p>
+                </div><!-- /.col-lg-4 -->
+                <!-- /.col-lg-4 -->
+                <div class="col-lg-4 mt-4">
+                    <img class="rounded-circle border shadow p-5" src="img/web-link.png">
+
+                    <h2 class="mt-3">Páginas na Internet</h2>
+                    <p> Páginas na internet para seu negócio</p>
+                    <p><a class="btn btn-secondary bg-primary fw-bold" href="#exampleModal02"
+                            data-bs-toggle="modal">Veja
+                            Detalhes »</a>
+                    </p>
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <img class="rounded-circle border shadow p-5 img-fluid" src="img/unidade-ssd.png">
+
+                    <h2 class="mt-3">Upgrades</h2>
+                    <p>Aumente a velocidade da sua máquina</p>
+                    <p><a class="btn btn-secondary bg-primary fw-bold" href="#exampleModal03"
+                            data-bs-toggle="modal">Veja
+                            Detalhes »</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- <section id="precos" class="pt-4 mt-4">
+            <div class="pricing-header pt-4 mt-4 text-center">
+                <h2 class="display-5 fw-bold">Preços</h2>
+                <p class="fs-5 mb-5 text-muted">Nas tabelas abaixo, apenas uma estimativa de valores dos nossos
+                    serviços.</p>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                        <div class="card-header py-3 text-white bg-primary border-primary">
+                            <h4 class="my-0 fw-normal">Formatção PC</h4>
+                        </div>
+                        <div class="card-body bg-light">
+                            <h1 class="card-title pricing-card-title">Apartir de 150 R$<small
+                                    class="text-muted fw-light"></small>
+                            </h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>30 users included</li>
+                                <li>15 GB of storage</li>
+                                <li>Phone and email support</li>
+                                <li>Help center access</li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                        <div class="card-header py-3 text-white bg-primary border-primary">
+                            <h4 class="my-0 fw-normal">Enterprise</h4>
+                        </div>
+                        <div class="card-body bg-light">
+                            <h1 class="card-title pricing-card-title">$29<small class="text-muted fw-light">/mo</small>
+                            </h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>30 users included</li>
+                                <li>15 GB of storage</li>
+                                <li>Phone and email support</li>
+                                <li>Help center access</li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                        <div class="card-header py-3 text-white bg-primary border-primary">
+                            <h4 class="my-0 fw-normal">Enterprise</h4>
+                        </div>
+                        <div class="card-body bg-light">
+                            <h1 class="card-title pricing-card-title">$29<small class="text-muted fw-light">/mo</small>
+                            </h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>30 users included</li>
+                                <li>15 GB of storage</li>
+                                <li>Phone and email support</li>
+                                <li>Help center access</li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <section id="faq" class="py-5 my-5">
+            <div class="row pt-5 mt-5">
+                <div class="col-12 text-center">
+                    <h2 class="display-5 fw-bold">Perguntas Frequentes</h2>
+                </div>
+            </div>
+            <div class="row mt-3 mb-5">
+                <div class="col-12">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="text-primary accordion-button bg-light" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                                    aria-controls="collapseOne">
+                                    Por que devo fazer upgrade do disco rígido do (HD) para um (SSD)?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body bg-light">
+                                    <p>O upgrade de um disco rígido (HD) para um disco de estado sólido (SSD) pode
+                                        trazer várias vantagens significativas para o desempenho e a experiência geral
+                                        do computador. Aqui estão algumas das principais razões pelas quais as pessoas
+                                        optam por fazer esse upgrade:</p><br>
+                                    <ol>
+                                        <li>
+                                            <strong>Velocidade:</strong>
+                                            Velocidade: Os SSDs são consideravelmente mais rápidos do que os HDs
+                                            tradicionais. Eles têm tempos de acesso e taxas de transferência de dados
+                                            muito mais rápidos, o que significa que seu sistema operacional, aplicativos
+                                            e arquivos serão carregados e executados mais rapidamente. O tempo de
+                                            inicialização do sistema também será reduzido significativamente.<br>
+                                        </li>
+                                        <li>
+                                            <strong>Responsividade:</strong>
+                                            Devido à sua velocidade, os SSDs tornam o computador mais
+                                            responsivo e ágil. Os aplicativos abrem instantaneamente e os tempos de
+                                            carregamento são reduzidos. As operações de leitura e gravação de arquivos
+                                            são executadas de forma mais rápida e suave, o que melhora a experiência do
+                                            usuário.
+                                        </li>
+                                        <li>
+                                            <strong>Confiabilidade:</strong>
+                                            Os SSDs não têm partes móveis, o que os torna mais duráveis
+                                            e menos propensos a falhas mecânicas em comparação com os HDs. Isso resulta
+                                            em maior confiabilidade e menos chances de perda de dados devido a falhas
+                                            físicas.
+                                        </li>
+                                        <li>
+                                            <strong>Silêncio e eficiência energética:</strong>
+                                            Como não possuem partes móveis, os SSDs
+                                            são mais silenciosos durante o funcionamento e consomem menos energia. Isso
+                                            pode ser especialmente benéfico para laptops, pois pode prolongar a duração
+                                            da bateria.
+                                        </li>
+                                        <li>
+                                            <strong>Redução do calor e tamanho compacto:</strong>
+                                            Os SSDs geram menos calor em comparação
+                                            com os HDs, o que ajuda a manter a temperatura do sistema mais baixa. Além
+                                            disso, os SSDs são mais compactos e leves, o que é útil para laptops e
+                                            sistemas com espaço limitado.
+                                        </li>
+
+                                    </ol>
+                                    <p>
+                                        Em resumo, ao fazer um upgrade de HD para SSD, você pode desfrutar de um
+                                        desempenho mais rápido, maior confiabilidade, menor consumo de energia, menor
+                                        calor e uma experiência geral mais agradável ao usar o computador.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="text-primary accordion-button bg-light collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                                    aria-controls="collapseTwo">
+                                    Por que devo realizar uma manutenção preventiva em meu PC?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body bg-light">
+                                    <p>
+                                        Realizar manutenção preventiva em seu PC é importante por várias razões. Aqui
+                                        estão alguns motivos pelos quais você deve considerar a manutenção preventiva:
+                                    </p>
+                                    <ol>
+                                        <li>
+                                            <strong>
+                                                Desempenho otimizado:
+                                            </strong>
+                                            A manutenção preventiva ajuda a garantir que o seu PC
+                                            esteja funcionando com desempenho máximo. Isso inclui a limpeza física do
+                                            hardware, remoção de poeira, atualização de drivers e otimização do sistema
+                                            operacional. Com uma manutenção adequada, você pode evitar problemas de
+                                            desempenho, como lentidão, travamentos e tempo de resposta lento.
+                                        </li>
+                                        <li>
+                                            <strong>Prolongamento da vida útil:</strong>Ao realizar manutenção
+                                            regularmente, você pode
+                                            prolongar a vida útil do seu PC. A limpeza interna e externa ajuda a
+                                            prevenir o acúmulo de poeira, que pode causar superaquecimento e danos aos
+                                            componentes internos. Além disso, a manutenção adequada também pode ajudar a
+                                            identificar e corrigir problemas antes que se tornem mais graves e caros de
+                                            reparar.
+                                        </li>
+                                        <li>
+                                            <strong>Prevenção de falhas e perda de dados:</strong> A manutenção
+                                            preventiva ajuda a
+                                            identificar e corrigir problemas antes que eles causem falhas no sistema ou
+                                            a perda de dados importantes. Isso inclui a verificação regular do disco
+                                            rígido em busca de erros, a atualização de software de segurança e a criação
+                                            de backups dos seus arquivos importantes. Dessa forma, você pode evitar
+                                            surpresas desagradáveis, como falhas de hardware repentinas ou perda de
+                                            dados irreparável.
+                                        </li>
+                                        <li>
+                                            <strong>Economia de custos:</strong> Embora a manutenção preventiva exija
+                                            algum investimento
+                                            de tempo e recursos, ela pode ajudar a economizar dinheiro a longo prazo. Ao
+                                            realizar a manutenção regularmente, você pode evitar problemas mais graves
+                                            que exigiriam reparos caros ou até mesmo a substituição de componentes. Além
+                                            disso, a manutenção adequada também pode ajudar a evitar interrupções no
+                                            trabalho ou nas atividades de lazer, que poderiam resultar em perda de
+                                            produtividade ou custos adicionais.
+                                        </li>
+                                        <li>
+                                            <strong>Melhor experiência do usuário:</strong> Por fim,
+                                            a manutenção preventiva contribui para uma melhor experiência do usuário. Um
+                                            PC bem mantido proporciona um ambiente de trabalho mais estável, confiável e
+                                            eficiente. Você terá menos frustrações com travamentos ou problemas de
+                                            desempenho, permitindo que você se concentre nas suas tarefas e atividades
+                                            sem interrupções.
+                                        </li>
+                                    </ol>
+                                    <p>Em resumo, a manutenção preventiva em seu PC é essencial para garantir um
+                                        desempenho ideal, prolongar a vida útil do sistema, prevenir falhas e perda de
+                                        dados, economizar dinheiro e proporcionar uma experiência do usuário melhor e
+                                        mais tranquila.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="text-primary accordion-button bg-light collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                                    aria-controls="collapseThree">
+                                    Qual Importância em ter uma página na internet do meu négocio?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body bg-light">
+                                    <p>
+                                        Obter uma página na internet para o seu negócio é extremamente importante nos
+                                        dias de hoje. Aqui estão algumas razões pelas quais ter uma presença online é
+                                        crucial:
+                                    </p>
+                                    <ol>
+                                        <li>
+                                            <strong>Visibilidade e alcance:</strong> Ter uma página na internet permite
+                                            que o seu negócio
+                                            seja encontrado por um número muito maior de pessoas. As pessoas usam a
+                                            internet como fonte principal de informação e pesquisa, e ter uma presença
+                                            online aumenta a visibilidade do seu negócio para potenciais clientes, tanto
+                                            localmente quanto em escala global.
+                                        </li>
+                                        <li>
+                                            <strong>Acesso 24/7:</strong> Uma página na internet está disponível 24
+                                            horas por dia, 7 dias
+                                            por semana. Isso significa que as pessoas podem acessar informações sobre o
+                                            seu negócio, produtos ou serviços a qualquer momento, mesmo fora do horário
+                                            comercial. Isso aumenta as chances de atrair e atender clientes em
+                                            diferentes fusos horários e com diferentes hábitos de consumo.
+                                        </li>
+                                        <li>
+                                            <strong>Credibilidade e confiança:</strong> Ter uma página na internet bem
+                                            projetada e
+                                            profissional transmite credibilidade e confiança aos clientes. Uma presença
+                                            online sólida mostra que o seu negócio está atualizado e em sintonia com as
+                                            tendências tecnológicas. Além disso, depoimentos, avaliações e informações
+                                            sobre a sua empresa podem ser compartilhados online, ajudando a construir
+                                            uma reputação positiva.
+                                        </li>
+                                        <li>
+                                            <strong>Marketing e promoção:</strong> Uma página na internet oferece um
+                                            canal valioso para
+                                            promover o seu negócio e seus produtos ou serviços. Você pode utilizar
+                                            estratégias de marketing digital, como SEO (otimização para mecanismos de
+                                            busca), mídias sociais, publicidade online e conteúdo relevante para atrair
+                                            e engajar potenciais clientes. É uma forma eficaz de alcançar um público
+                                            segmentado e direcionado.
+                                        </li>
+                                        <li>
+                                            <strong>Facilidade de acesso a informações:</strong>
+                                            Uma página na internet permite que você
+                                            forneça informações detalhadas sobre o seu negócio, como produtos, serviços,
+                                            horário de funcionamento, localização e formas de contato. Isso facilita
+                                            para os clientes encontrarem o que precisam e obterem as informações
+                                            necessárias antes de tomar decisões de compra.
+                                        </li>
+                                        <li>
+                                            <strong>Vendas online:</strong> Se o seu negócio permitir, uma página na
+                                            internet pode servir
+                                            como uma plataforma de comércio eletrônico, onde os clientes podem fazer
+                                            compras diretamente. Isso expande suas oportunidades de vendas, permitindo
+                                            que você alcance clientes além das limitações geográficas e esteja presente
+                                            no mercado online em constante crescimento.
+                                        </li>
+                                    </ol>
+                                    <p>
+                                        Ter uma página na internet não é mais um luxo, mas uma necessidade para a
+                                        maioria dos negócios nos dias de hoje. É uma forma eficaz de alcançar mais
+                                        clientes, construir credibilidade, promover seus produtos ou serviços e
+                                        impulsionar o crescimento do seu negócio.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="text-primary accordion-button bg-light collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
+                                    aria-controls="collapseFour">
+                                    Por que é importante fazer a limpeza regular do meu PC?
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body bg-light">
+
+                                    <p>
+                                        A limpeza regular do seu PC ajuda a remover o acúmulo de poeira e sujeira nos
+                                        componentes internos, evitando superaquecimento, reduzindo o risco de falhas e
+                                        prolongando a vida útil do hardware.
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFive">
+                                <button class="text-primary accordion-button bg-light collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false"
+                                    aria-controls="collapseFive">
+                                    Qual a distância que é realizado os atendimentos?
+                                </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body bg-light">
+
+                                    <p>
+                                        <strong>Manutenção e Upgrades em computadores: </strong><br>
+                                        Podemos retirar os equipamentos em até 35km do meu endereço como descrito no
+                                        mapa.<br><br>
+                                        <strong>Para desenvolvimento de páginas WEB:</strong> <br>
+                                        Atendemos em todo o Brasil
+
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section id="contato" class="py-3 my-3">
+            <div class="row pt-3 mt-3">
+                <div class="col-12 text-center">
+                    <h2 class="display-5 fw-bold">Contato</h2>
+                </div>
+            </div>
+            <div class="row align-items-md-stretch text-center">
+                <div class="col-md-6">
+                    <div class="h-100 p-5 bg-light border rounded-3">
+                        <h2>Fale Conosco</h2>
+                        <p class="p-5">Em caso de dúvidas ou sugestões chamem no whatsapp ou envie um
+                            email.<br>
+                            Dentro de 24 horas responderemos seu contato!</p>
+                        <p class="mt-4"><i class="mdi mdi-phone"></i> (00) 00000-0000</p>
+                        <p><i class="mdi mdi-email"></i> email@provedor.com</p>
+                        <a target="_blank"
+                            href="https://api.whatsapp.com/send?phone=5511966734313&text=Ol%C3%A1%20gostaria%20de%20gerar%20um%20or%C3%A7amento."
+                            class="mt-4 w-75 p-3 btn btn-success" type="button"><i class="mdi mdi-whatsapp"></i>
+                            Chamar Whatsapp</a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="h-100 p-5 bg-light border rounded-3">
+
+                        <p>Retiramos seu equipamento em sua residência. Logo abaixo segue o endereço da assistência.<br>
+                            Em caso de manutenção de computadores so retiramos os equipamento se estiverem em uma
+                            distância de até 35Km </p>
+
+                        <iframe class="m-0 m-auto"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3660.8215278316393!2d-46.71705965952595!3d-23.43081337897757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cefbae7b026071%3A0xaafc2f09edae3354!2sR.%20Pal%C3%A1cio%20Guanabara%2C%20226%20-%20Vila%20Santo%20Ant%C3%B4nio%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2002987-090!5e0!3m2!1spt-BR!2sbr!4v1686839997896!5m2!1spt-BR!2sbr"
+                            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </div>
+
+    <!--Modal 01-->
+
+    <div class="modal fade" id="exampleModal01" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class=" modal-dialog modal-dialog-scrollable">
+            <div class="modal-content bg-light">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Manutenção</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <p>Aqui na Kbyte Technical, oferecemos serviços completos de manutenção para PC e notebook,
+                        garantindo que seu equipamento esteja sempre funcionando de maneira eficiente e livre de
+                        problemas. Nossa equipe altamente capacitada e experiente é especializada em lidar com uma ampla
+                        gama de questões técnicas, desde reparos de hardware até otimização de software.</p>
+                    <p>Quando se trata de manutenção de PC e notebook, entendemos que cada problema é único. É por isso
+                        que realizamos uma análise minuciosa do seu equipamento, identificando as questões específicas
+                        que estão afetando seu desempenho. Nossos técnicos usam ferramentas avançadas e conhecimento
+                        especializado para diagnosticar e resolver problemas com precisão.</p>
+                    <p>Seja um problema com a lentidão do sistema, erros de inicialização, tela azul da morte, problemas
+                        de conectividade, falhas de hardware ou qualquer outra coisa, estamos prontos para ajudar.</p>
+
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Final Modal 01-->
+
+    <!--Inicio Modal 02-->
+
+    <div class="modal fade" id="exampleModal02" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class=" modal-dialog modal-dialog-scrollable">
+            <div class="modal-content bg-light">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Criação Páginas Internet</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <p>Na Kbyte Technical, oferecemos serviços profissionais de criação de páginas na internet,
+                        projetadas para atender às suas necessidades específicas e refletir a identidade e o propósito
+                        do seu negócio. Nossa equipe de especialistas em web design está pronta para transformar suas
+                        ideias em uma presença online impactante e envolvente.</p>
+                    <p>
+                        Entendemos que a presença online é essencial nos dias de hoje, independentemente do tamanho ou
+                        segmento do seu negócio. É por isso que nos dedicamos a criar páginas da web que se destacam,
+                        são visualmente atraentes, funcionais e fáceis de usar. Nossos serviços abrangem:
+                    </p>
+                    <p>
+                        Web design personalizado: Criamos páginas da web totalmente personalizadas, levando em
+                        consideração suas preferências de design, identidade da marca e objetivos de negócio. Cada
+                        elemento é cuidadosamente planejado e projetado para oferecer uma experiência única aos seus
+                        visitantes.
+                    </p>
+                    <p>
+                        Responsividade: Garantimos que sua página da web seja responsiva, ou seja, se adapte
+                        perfeitamente a dispositivos móveis, tablets e diferentes tamanhos de tela. Isso proporciona uma
+                        experiência consistente e amigável em todos os dispositivos, melhorando a usabilidade e o
+                        engajamento do usuário.
+                    </p>
+                    <p>
+                        Arquitetura de informação: Organizamos o conteúdo da sua página da web de forma lógica e
+                        intuitiva, facilitando a navegação para os visitantes. Criamos uma estrutura de informação clara
+                        e categorizada, garantindo que as informações essenciais sejam facilmente encontradas.
+
+                    </p>
+                    <p>
+                        Design visualmente atraente: Utilizamos princípios de design modernos e elegantes para criar uma
+                        estética visual atraente e profissional. Cores, tipografia, imagens e gráficos são escolhidos
+                        cuidadosamente para transmitir a essência da sua marca e envolver seus visitantes.
+                    </p>
+                    <p>
+                        Funcionalidades avançadas: Integramos funcionalidades avançadas conforme necessário, como
+                        formulários de contato, integração com redes sociais, recursos de comércio eletrônico, blogs e
+                        muito mais. Adaptamos as funcionalidades de acordo com as necessidades específicas do seu
+                        negócio.
+                    </p>
+                    <p>
+                        Otimização para mecanismos de busca (SEO): Implementamos técnicas de otimização para mecanismos
+                        de busca para melhorar a visibilidade da sua página da web nos resultados de pesquisa,
+                        aumentando assim o tráfego orgânico e o alcance online.
+                    </p>
+                    <p>
+                        Manutenção contínua: Oferecemos serviços de manutenção contínua para garantir que sua página da
+                        web esteja sempre atualizada, segura e funcionando corretamente. Isso inclui atualizações de
+                        software, monitoramento de desempenho e solução de problemas.
+
+                    </p>
+                    <p>
+                        Na Kbyte Technical, acreditamos que uma página da web eficaz é uma poderosa ferramenta de
+                        marketing e comunicação. Trabalhamos em estreita colaboração com você para entender suas
+                        necessidades e objetivos, criando uma presença online que realmente se destaque da concorrência.
+                        Deixe-nos ajudá-lo(a) a estabelecer uma presença online sólida e cativante para alcançar o
+                        sucesso digital.</p>
+
+                    </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Fim Modal 02-->
+
+    <!--Inicio Modal 03-->
+
+    <div class="modal fade" id="exampleModal03" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class=" modal-dialog modal-dialog-scrollable">
+            <div class="modal-content bg-light">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Upgrade PC e notebook</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <p>Na kbyte Technical, oferecemos serviços especializados de upgrade para computadores e
+                        notebooks, ajudando você a aproveitar ao máximo o seu equipamento existente. Seja para melhorar
+                        o desempenho, aumentar a capacidade de armazenamento ou atualizar os componentes essenciais,
+                        nossa equipe altamente qualificada está pronta para ajudar.</p>
+                    <p>
+                        Entendemos que, com o tempo, as necessidades e demandas tecnológicas podem mudar. É por isso que
+                        oferecemos serviços de upgrade personalizados, projetados para atender às suas necessidades
+                        individuais e proporcionar uma experiência aprimorada no uso do seu computador ou notebook.
+                    </p>
+                    <p>
+                        Nossos serviços de upgrade incluem:
+                    </p>
+                    <p>
+                        Atualização de memória RAM: Aumentamos a capacidade de memória do seu computador ou notebook
+                        para melhorar o desempenho multitarefa e a velocidade de execução de programas e aplicativos.
+                    </p>
+                    <p>
+                        Substituição de disco rígido: Atualizamos o disco rígido do seu equipamento para um de maior
+                        capacidade, permitindo armazenar mais arquivos e dados importantes.
+
+                    </p>
+                    <p>
+                        Instalação de SSD: Realizamos a instalação de unidades de estado sólido (SSD), que proporcionam
+                        um aumento significativo na velocidade de inicialização e carregamento de programas, oferecendo
+                        uma experiência mais ágil e responsiva.
+                    </p>
+                    <p>
+                        Upgrade de processador: Atualizamos o processador do seu computador ou notebook para um modelo
+                        mais recente e poderoso, proporcionando um desempenho mais rápido e eficiente.
+                    </p>
+                    <p>
+                        Melhoria de placa de vídeo: Realizamos a substituição ou atualização da placa de vídeo para
+                        proporcionar uma experiência de jogos mais suave e melhor desempenho gráfico.
+                    </p>
+                    <p>
+                        Upgrade de sistema operacional: Atualizamos o sistema operacional do seu computador ou notebook
+                        para a versão mais recente, garantindo acesso aos recursos mais recentes e aprimorados de
+                        segurança.
+
+                    </p>
+                    <p>
+                        Nossa equipe técnica altamente qualificada cuida de todo o processo de upgrade, desde a seleção
+                        dos componentes corretos até a instalação e configuração adequadas. Além disso, garantimos a
+                        integridade dos seus dados durante o processo de upgrade, realizando cópias de segurança e
+                        transferência segura de informações.</p>
+
+                    </p>
+                    <p>
+                        Seja para melhorar o desempenho, a capacidade de armazenamento ou a experiência geral do uso do
+                        seu computador ou notebook, confie na [Nome da sua Empresa] para fornecer serviços de upgrade
+                        confiáveis e de qualidade. Estamos comprometidos em oferecer soluções personalizadas e
+                        eficientes para atender às suas necessidades individuais. Deixe-nos ajudá-lo(a) a aproveitar ao
+                        máximo o seu equipamento existente, prolongando sua vida útil e proporcionando uma experiência
+                        tecnológica aprimorada.
+                    </p>
+
+                </div>
+                <!--Fim Modal 03-->
+
+                <!--Inicio Footer-->
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container ">
+        <div class="row ">
+            <div class="col-md-8 mt-3 mb-3">
+                <p>© 2017–2022 <img src="img/chave-inglesa 32 bts.png" alt=""> Kbyte Technical <a class="ms-5"
+                        href="#">Política de Privacidade</a> · <a href="#">Termos de Uso</a></p>
+            </div>
+            <div class="col-md-4 mt-3 mb-3 ">
+
+                <a class="btn btn-outline-primary float-end" href="#" role="button">Ir para topo</a>
+
+
+            </div>
+        </div>
+
+    </footer>
+
+
+
+
+
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="js/switch.js"></script>
+</body>
+
+</html>
